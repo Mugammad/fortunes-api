@@ -1,0 +1,19 @@
+{
+  "name": "fortunes_api",
+  "version": "1.0.0",
+  "description": "A fortune api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devStart": "nodemon ./bin/www"
+  },
+  "author": "Mugammad Breda",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.17.3"
+  }
+}
